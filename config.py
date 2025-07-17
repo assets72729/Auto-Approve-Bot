@@ -7,7 +7,7 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 ADMIN = int(os.environ.get("ADMIN", "7357122047"))
 PICS = (os.environ.get("PICS", "https://graph.org/file/36d6bd0273c1f68bef35a-a4ea33ce86c9732e94.jpg")).split()
 
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002895471764"))
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002703468153"))
 NEW_REQ_MODE = os.environ.get("NEW_REQ_MODE", "True").lower() == "true"  # Set "True" For accept new requests
 
 DB_URI = os.environ.get("DB_URI", "")
